@@ -118,4 +118,5 @@ rsconnect-python
 
 .chainlit
 .files
+pdfs
 record_manager_cache.sql
