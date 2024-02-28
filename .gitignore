@@ -120,3 +120,4 @@ rsconnect-python
 .files
 pdfs
 record_manager_cache.sql
+docker_deployment_commands.txt
