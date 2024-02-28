@@ -1,0 +1,9 @@
+azure-identity
+chainlit
+chromadb
+langchain
+langchain_openai
+openai
+pymupdf
+python-dotenv
+tiktoken
