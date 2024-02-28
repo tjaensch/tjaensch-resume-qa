@@ -1,7 +1,6 @@
 from typing import List
 from pathlib import Path
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema import StrOutputParser
 from langchain_community.document_loaders import (
@@ -15,7 +14,7 @@ from langchain.schema.runnable import Runnable, RunnablePassthrough, RunnableCon
 from langchain.callbacks.base import BaseCallbackHandler
 
 import chainlit as cl
-import os
+
 from dotenv import load_dotenv
 load_dotenv()
 
