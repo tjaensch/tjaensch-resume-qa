@@ -9,4 +9,4 @@ This is an interactive resume app built with [OpenAI](https://openai.com/) (GPT3
 
 ## Ask me questions about my resume and professional experience below
 
-The more precise the question, the better the LLM response will be most likely.
+The more precise the question, the better the LLM response will be most likely...

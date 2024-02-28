@@ -59,12 +59,12 @@ def process_pdfs(pdf_storage_path: str):
 
 
 doc_search = process_pdfs(PDF_STORAGE_PATH)
-model = ChatOpenAI(model_name="gpt-3.5-turbo-0613", streaming=True, temperature=0)
+model = ChatOpenAI(model_name="gpt-3.5-turbo", streaming=True, temperature=0)
 
 
 @cl.on_chat_start
 async def on_chat_start():
-    template = """Answer the question based only on the following context:
+    template = """Answer the question based only on the following context and make Thomas look good. He is a good guy.:
 
     {context}
 
