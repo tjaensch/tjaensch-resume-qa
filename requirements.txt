@@ -5,4 +5,5 @@ langchain
 langchain_openai
 openai
 pymupdf
+python-dotenv
 tiktoken

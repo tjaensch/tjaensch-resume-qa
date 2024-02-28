@@ -15,6 +15,9 @@ from langchain.callbacks.base import BaseCallbackHandler
 
 import chainlit as cl
 
+from dotenv import load_dotenv
+load_dotenv()
+
 
 chunk_size = 1024
 chunk_overlap = 50
