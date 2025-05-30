@@ -3,7 +3,7 @@
 This is an interactive resume app built with [OpenAI](https://openai.com/) (GPT3.5 Large Language Model), [LangChain](https://www.langchain.com/) (LLM plumbing code), [Chroma](https://www.trychroma.com/) (vector store), and [Chainlit](https://docs.chainlit.io/get-started/overview) (UI). The app is deployed with [Docker](https://www.docker.com/) on [Google Cloud Platform](https://cloud.google.com/).
 
 ## Live Link on Google Cloud Platform
-Deprecated, I made another, better resume app: https://tjaensch-genai-resume-matching-acbecxvgna-uc.a.run.app/
+Deprecated, no longer live...
 
 ## Chroma Q&A with Sources Element
 
